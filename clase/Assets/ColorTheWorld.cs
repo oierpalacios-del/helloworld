@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ColorTheWorld : MonoBehaviour
 {
+    //Find Mario
     public Color theColor;
     Object[] gameObjects;
     [SerializeField] private bool findByTag;
@@ -39,4 +40,13 @@ public class ColorTheWorld : MonoBehaviour
             }
         }
     }
+
+    //Say Hello Little Stylish
+    //Hello Mario
+    //The line above is not the anwser
+    //Hello World
+    //So long gay Bowser
+    //Mariano Carreras Wiihi
+    //Mama mia
+    //Mario
 }
