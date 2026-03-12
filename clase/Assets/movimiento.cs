@@ -4,12 +4,12 @@ public class movimiento : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;
     [SerializeField] private float speed = 10f;
-    [SerializeField] private float gravity = 9.8f;
-    [SerializeField] private float threshold = 30f;
+    //[SerializeField] private float gravity = 9.8f; yet to be implemented
+    //[SerializeField] private float threshold = 30f; yet to be implemented
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+     //   controller = GetComponent<CharacterController>(); yet to be implemented
     }
 
     // Update is called once per frame
